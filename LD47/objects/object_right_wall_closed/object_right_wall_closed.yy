@@ -3,7 +3,7 @@
     "name": "sprite_right_wall_closed",
     "path": "sprites/sprite_right_wall_closed/sprite_right_wall_closed.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

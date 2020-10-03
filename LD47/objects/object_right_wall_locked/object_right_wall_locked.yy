@@ -3,7 +3,7 @@
     "name": "sprite_right_wall_locked",
     "path": "sprites/sprite_right_wall_locked/sprite_right_wall_locked.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
