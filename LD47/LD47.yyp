@@ -37,6 +37,7 @@
     {"id":{"name":"sprite_tile_4","path":"sprites/sprite_tile_4/sprite_tile_4.yy",},"order":3,},
     {"id":{"name":"sprite_snake_walking","path":"sprites/sprite_snake_walking/sprite_snake_walking.yy",},"order":1,},
     {"id":{"name":"sprite_background_1","path":"sprites/sprite_background_1/sprite_background_1.yy",},"order":2,},
+    {"id":{"name":"sprite_avatar_sleeping","path":"sprites/sprite_avatar_sleeping/sprite_avatar_sleeping.yy",},"order":3,},
     {"id":{"name":"sprite_tile_6","path":"sprites/sprite_tile_6/sprite_tile_6.yy",},"order":5,},
     {"id":{"name":"sprite_tile_8","path":"sprites/sprite_tile_8/sprite_tile_8.yy",},"order":7,},
     {"id":{"name":"sprite_tile_1","path":"sprites/sprite_tile_1/sprite_tile_1.yy",},"order":0,},
