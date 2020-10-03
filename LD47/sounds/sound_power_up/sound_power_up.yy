@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_bgm.wav",
-  "duration": 38.37119,
+  "soundFile": "sound_power_up.wav",
+  "duration": 0.357,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_bgm",
+  "name": "sound_power_up",
   "tags": [],
   "resourceType": "GMSound",
 }

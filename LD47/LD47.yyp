@@ -55,6 +55,7 @@
     {"id":{"name":"sprite_map","path":"sprites/sprite_map/sprite_map.yy",},"order":0,},
     {"id":{"name":"object_snake","path":"objects/object_snake/object_snake.yy",},"order":0,},
     {"id":{"name":"sprite_bottom_wall_locked","path":"sprites/sprite_bottom_wall_locked/sprite_bottom_wall_locked.yy",},"order":5,},
+    {"id":{"name":"sound_power_up","path":"sounds/sound_power_up/sound_power_up.yy",},"order":1,},
     {"id":{"name":"sprite_controls","path":"sprites/sprite_controls/sprite_controls.yy",},"order":1,},
     {"id":{"name":"sprite_tile_2","path":"sprites/sprite_tile_2/sprite_tile_2.yy",},"order":1,},
     {"id":{"name":"object_bottom_wall","path":"objects/object_bottom_wall/object_bottom_wall.yy",},"order":1,},
