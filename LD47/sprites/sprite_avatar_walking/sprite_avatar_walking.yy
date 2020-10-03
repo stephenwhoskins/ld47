@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26da8fd7-26da-4f7d-a184-ab035ac87184","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26da8fd7-26da-4f7d-a184-ab035ac87184","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":{"name":"37f911ba-2485-47b1-9ef9-58c4f075273a","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_avatar_walking","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"26da8fd7-26da-4f7d-a184-ab035ac87184","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f8eef36-5563-40d6-9d39-ec890466ec45","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f8eef36-5563-40d6-9d39-ec890466ec45","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":{"name":"37f911ba-2485-47b1-9ef9-58c4f075273a","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_avatar_walking","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"6f8eef36-5563-40d6-9d39-ec890466ec45","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0d81cbec-e55b-4742-959e-3764228e953d","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0d81cbec-e55b-4742-959e-3764228e953d","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":{"name":"13bf1f2f-6643-45c2-a55b-93da44dfd6d4","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_avatar_walking","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"0d81cbec-e55b-4742-959e-3764228e953d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d7292ccb-249b-4fd4-af3e-e8fd9dbeb24e","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d7292ccb-249b-4fd4-af3e-e8fd9dbeb24e","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"LayerId":{"name":"13bf1f2f-6643-45c2-a55b-93da44dfd6d4","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_avatar_walking","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","name":"d7292ccb-249b-4fd4-af3e-e8fd9dbeb24e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprite_avatar_walking","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"96beeae9-29d3-4bc6-b45a-b05f9892d1b5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26da8fd7-26da-4f7d-a184-ab035ac87184","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b64d171d-fbfc-4dd2-ba2a-eb7eb160c16a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f8eef36-5563-40d6-9d39-ec890466ec45","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9b0ee570-eb39-41ba-97b2-e030f431f1fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d81cbec-e55b-4742-959e-3764228e953d","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4de2200d-1d64-4bde-a7ab-abf227011a69","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7292ccb-249b-4fd4-af3e-e8fd9dbeb24e","path":"sprites/sprite_avatar_walking/sprite_avatar_walking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37f911ba-2485-47b1-9ef9-58c4f075273a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"13bf1f2f-6643-45c2-a55b-93da44dfd6d4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "avatar",
