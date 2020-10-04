@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_power_up.wav",
-  "duration": 0.357,
+  "duration": 0.789467,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
