@@ -35,7 +35,7 @@
     "spriteId": {"name":"sprite_spikes","path":"sprites/sprite_spikes/sprite_spikes.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.8,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
