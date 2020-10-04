@@ -49,6 +49,7 @@
     {"id":{"name":"sprite_wall_0","path":"sprites/sprite_wall_0/sprite_wall_0.yy",},"order":12,},
     {"id":{"name":"sprite_bottom_wall_closed","path":"sprites/sprite_bottom_wall_closed/sprite_bottom_wall_closed.yy",},"order":4,},
     {"id":{"name":"sprite_door_top_2","path":"sprites/sprite_door_top_2/sprite_door_top_2.yy",},"order":20,},
+    {"id":{"name":"sound_hit","path":"sounds/sound_hit/sound_hit.yy",},"order":2,},
     {"id":{"name":"sprite_warrior_attacking","path":"sprites/sprite_warrior_attacking/sprite_warrior_attacking.yy",},"order":1,},
     {"id":{"name":"sprite_door_2","path":"sprites/sprite_door_2/sprite_door_2.yy",},"order":19,},
     {"id":{"name":"object_arrow","path":"objects/object_arrow/object_arrow.yy",},"order":2,},

@@ -51,4 +51,9 @@ var cx = miniroom_x * miniroom_width;
 var cy = miniroom_y * miniroom_height + cy_offset;
 camera_set_view_pos(c, cx, cy);
 
+if (hurt_count == 0)
+{
+	audio_play_sound(sound_hit, 10, false);
+}
+
 hurt_count = min(hurt_count + 1, max_hurt_count);
