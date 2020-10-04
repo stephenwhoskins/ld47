@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprite_spikes",
-    "path": "sprites/sprite_spikes/sprite_spikes.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"parent":{"name":"object_spikes","path":"objects/object_spikes/object_spikes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "hazards",
-    "path": "folders/Objects/hazards.yy",
+    "name": "walls",
+    "path": "folders/Objects/walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_spikes",
+  "name": "object_base_wall",
   "tags": [],
   "resourceType": "GMObject",
 }

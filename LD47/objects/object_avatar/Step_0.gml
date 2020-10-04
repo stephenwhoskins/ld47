@@ -41,24 +41,6 @@ else
 	sprite_index = sprite_avatar_attacking;
 }
 
-while (!place_free(x + hspeed, y + vspeed))
-{
-	if (!place_free(x, y + vspeed))
-	{
-		vspeed = 0;
-	}
-	else if (!place_free(x + hspeed, y))
-	{
-		hspeed = 0;
-	}
-	else
-	{
-		hspeed = 0;
-		vspeed = 0;
-		break;
-	}
-}
-
 var c = view_camera[0];
 var miniroom_width = 256;
 var miniroom_height = 184;

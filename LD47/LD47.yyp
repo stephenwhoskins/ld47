@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprite_left_wall_locked","path":"sprites/sprite_left_wall_locked/sprite_left_wall_locked.yy",},"order":7,},
+    {"id":{"name":"object_base_wall","path":"objects/object_base_wall/object_base_wall.yy",},"order":19,},
     {"id":{"name":"object_barrier_1","path":"objects/object_barrier_1/object_barrier_1.yy",},"order":1,},
     {"id":{"name":"object_right_wall_locked","path":"objects/object_right_wall_locked/object_right_wall_locked.yy",},"order":10,},
     {"id":{"name":"sprite_door_locked_2","path":"sprites/sprite_door_locked_2/sprite_door_locked_2.yy",},"order":23,},
