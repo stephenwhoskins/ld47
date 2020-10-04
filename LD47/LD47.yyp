@@ -96,6 +96,8 @@
     {"id":{"name":"object_bottom_wall_closed","path":"objects/object_bottom_wall_closed/object_bottom_wall_closed.yy",},"order":4,},
     {"id":{"name":"sprite_sword_attacking","path":"sprites/sprite_sword_attacking/sprite_sword_attacking.yy",},"order":5,},
     {"id":{"name":"object_top_wall_locked","path":"objects/object_top_wall_locked/object_top_wall_locked.yy",},"order":9,},
+    {"id":{"name":"set_camera","path":"scripts/set_camera/set_camera.yy",},"order":1,},
+    {"id":{"name":"get_miniroom","path":"scripts/get_miniroom/get_miniroom.yy",},"order":2,},
     {"id":{"name":"object_menu_controller","path":"objects/object_menu_controller/object_menu_controller.yy",},"order":1,},
     {"id":{"name":"sprite_door","path":"sprites/sprite_door/sprite_door.yy",},"order":14,},
     {"id":{"name":"object_door_locked_2","path":"objects/object_door_locked_2/object_door_locked_2.yy",},"order":18,},

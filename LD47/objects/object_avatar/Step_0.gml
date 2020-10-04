@@ -41,15 +41,7 @@ else
 	sprite_index = sprite_avatar_attacking;
 }
 
-var c = view_camera[0];
-var miniroom_width = 256;
-var miniroom_height = 184;
-var cy_offset = -40;
-var miniroom_x = floor(x / miniroom_width);
-var miniroom_y = floor(y / miniroom_height);
-var cx = miniroom_x * miniroom_width;
-var cy = miniroom_y * miniroom_height + cy_offset;
-camera_set_view_pos(c, cx, cy);
+set_camera();
 
 if (hurt_count == 0)
 {
