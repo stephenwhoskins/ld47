@@ -13,6 +13,16 @@ if (distance_to_object(object_avatar)< 50)
 		{
 				global.health_level = max(global.health_level - 1, 0);
 				object_avatar.hurt_count = 0;
+				
+				// If avatar is to the left
+				if (object_avatar.x < x)
+				{
+					object_avatar.bounce_direction = -1;
+				}
+				else
+				{
+					object_avatar.bounce_direction = 1;
+				}
 		}
 	}
 	else
