@@ -21,5 +21,15 @@ for (var i = 0; i < global.health_level; i++)
 }
 
 // draw mini-map
+var map_left = view_x + hud_width - sprite_get_width(sprite_map) - 8;
 draw_sprite(sprite_map, 0,
-	view_x + hud_width - sprite_get_width(sprite_map) - 8, view_y);
+	map_left, view_y);
+var map_tile_offset = 1;
+var miniroom = get_miniroom(object_avatar);
+		draw_sprite(sprite_highlighted, 
+		0, 
+		map_left + 14 + miniroom.x * (map_tile_offset + sprite_get_width(sprite_highlighted)), 
+		view_y + 12 + miniroom.y * (sprite_get_height(sprite_highlighted) + map_tile_offset));
+
+
+	
