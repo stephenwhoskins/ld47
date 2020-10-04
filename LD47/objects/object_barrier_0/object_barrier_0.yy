@@ -3,7 +3,7 @@
     "name": "sprite_barrier_0",
     "path": "sprites/sprite_barrier_0/sprite_barrier_0.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

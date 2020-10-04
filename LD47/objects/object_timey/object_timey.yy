@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_spikes",
-    "path": "sprites/sprite_spikes/sprite_spikes.yy",
+    "name": "sprite_timey_idle",
+    "path": "sprites/sprite_timey_idle/sprite_timey_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"object_spikes","path":"objects/object_spikes/object_spikes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "hazards",
-    "path": "folders/Objects/hazards.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_spikes",
+  "name": "object_timey",
   "tags": [],
   "resourceType": "GMObject",
 }

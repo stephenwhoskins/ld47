@@ -1,0 +1,1 @@
+global.health_level = 5;

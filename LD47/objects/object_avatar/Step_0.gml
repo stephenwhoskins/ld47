@@ -58,3 +58,5 @@ while (!place_free(x + hspeed, y + vspeed))
 		break;
 	}
 }
+
+hurt_count = min(hurt_count + 1, max_hurt_count);
