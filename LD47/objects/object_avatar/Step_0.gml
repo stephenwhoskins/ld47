@@ -4,61 +4,76 @@
 vspeed = 0;
 hspeed = 0;
 
-if (bounce_back_count < max_bounce_back_count)
+if (global.health_level > 0)
 {
-	var x_velocity = 2.0 * bounce_direction;
-	if (!place_meeting(x + x_velocity, y, object_base_wall))
+	if (bounce_back_count < max_bounce_back_count)
 	{
-		hspeed = x_velocity;
-	}
-}
-else
-{
-	if (!keyboard_check(ord("X")))
-	{
-		sprite_index = sprite_avatar_idle;
-	
-		if (keyboard_check(vk_up))
+		var x_velocity = 2.0 * bounce_direction;
+		if (!place_meeting(x + x_velocity, y, object_base_wall))
 		{
-			sprite_index = sprite_avatar_walking;
-			vspeed = -1;
-		}
-		else if (keyboard_check(vk_down))
-		{
-			sprite_index = sprite_avatar_walking;
-			vspeed = 1;
-		}
-
-		if (keyboard_check(vk_left))
-		{
-			sprite_index = sprite_avatar_walking;
-			image_xscale = -1.0;
-			hspeed = -1;
-		}
-		else if (keyboard_check(vk_right))
-		{
-			sprite_index = sprite_avatar_walking;
-			image_xscale = 1.0;
-			hspeed = 1;
+			hspeed = x_velocity;
 		}
 	}
 	else
 	{
-		if (sprite_index != sprite_avatar_attacking)
+		if (!keyboard_check(ord("X")))
 		{
-			image_index = 0;
+			sprite_index = sprite_avatar_idle;
+	
+			if (keyboard_check(vk_up))
+			{
+				sprite_index = sprite_avatar_walking;
+				vspeed = -1;
+			}
+			else if (keyboard_check(vk_down))
+			{
+				sprite_index = sprite_avatar_walking;
+				vspeed = 1;
+			}
+
+			if (keyboard_check(vk_left))
+			{
+				sprite_index = sprite_avatar_walking;
+				image_xscale = -1.0;
+				hspeed = -1;
+			}
+			else if (keyboard_check(vk_right))
+			{
+				sprite_index = sprite_avatar_walking;
+				image_xscale = 1.0;
+				hspeed = 1;
+			}
 		}
-		sprite_index = sprite_avatar_attacking;
+		else
+		{
+			if (sprite_index != sprite_avatar_attacking)
+			{
+				image_index = 0;
+			}
+			sprite_index = sprite_avatar_attacking;
+		}
 	}
 }
 
 set_camera();
 
-if (hurt_count == 0)
+if (hurt_count == 0 && sprite_index != sprite_avatar_dead)
 {
 	audio_play_sound(sound_hit, 10, false);
 	bounce_back_count = 0;
+	
+	if (global.health_level == 0)
+	{
+		sprite_index = sprite_avatar_dead;
+		death_count = 0;
+	}
+}
+
+if (sprite_index == sprite_avatar_dead && death_count == max_death_count)
+{
+	room_goto(Room1);
 }
 
 hurt_count = min(hurt_count + 1, max_hurt_count);
 bounce_back_count = min(bounce_back_count + 1, max_bounce_back_count);
+death_count = min(death_count + 1, max_death_count);
