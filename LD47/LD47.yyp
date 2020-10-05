@@ -41,6 +41,7 @@
     {"id":{"name":"sprite_health","path":"sprites/sprite_health/sprite_health.yy",},"order":1,},
     {"id":{"name":"sprite_top_wall_closed","path":"sprites/sprite_top_wall_closed/sprite_top_wall_closed.yy",},"order":10,},
     {"id":{"name":"sprite_left_wall","path":"sprites/sprite_left_wall/sprite_left_wall.yy",},"order":2,},
+    {"id":{"name":"sprite_binary","path":"sprites/sprite_binary/sprite_binary.yy",},"order":3,},
     {"id":{"name":"object_wall_1","path":"objects/object_wall_1/object_wall_1.yy",},"order":13,},
     {"id":{"name":"sprite_right_wall_closed","path":"sprites/sprite_right_wall_closed/sprite_right_wall_closed.yy",},"order":8,},
     {"id":{"name":"sprite_right_wall","path":"sprites/sprite_right_wall/sprite_right_wall.yy",},"order":3,},
