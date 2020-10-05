@@ -22,6 +22,8 @@ if (global.shake_count < global.max_shake_count)
 	{
 		shake_x = 4;
 	}
+	
+	global.shake_count = min(global.shake_count + 1, global.max_shake_count);
 }
 camera_set_view_pos(c, cx + shake_x, cy);
 
