@@ -5,3 +5,5 @@ global.time_stopped = false;
 
 global.max_shake_count = 240;
 global.shake_count = global.max_shake_count;
+
+audio_stop_all();
