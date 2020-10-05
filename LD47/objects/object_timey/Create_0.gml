@@ -3,3 +3,6 @@
 max_float_count = 240;
 float_count = 0;
 orig_y = y;
+
+max_death_count = 480;
+death_count = max_death_count;

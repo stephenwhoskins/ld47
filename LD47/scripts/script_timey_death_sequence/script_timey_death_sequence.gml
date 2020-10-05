@@ -7,4 +7,5 @@ function script_timey_death_sequence()
 	object_timey.orig_y = y;
 	object_timey.x = x;
 	object_timey.y = y;
+	object_timey.death_count = 0;
 }

@@ -9,6 +9,20 @@ var miniroom_x = floor(x / miniroom_width);
 var miniroom_y = floor(y / miniroom_height);
 var cx = miniroom_x * miniroom_width;
 var cy = miniroom_y * miniroom_height + cy_offset;
-camera_set_view_pos(c, cx, cy);
+
+var shake_x = 0;
+
+if (global.shake_count < global.max_shake_count)
+{
+	if ((global.shake_count / 2) % 2 == 0)
+	{
+		shake_x = -4;
+	}
+	else
+	{
+		shake_x = 4;
+	}
+}
+camera_set_view_pos(c, cx + shake_x, cy);
 
 }
