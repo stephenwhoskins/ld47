@@ -1,44 +1,73 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (distance_to_object(object_avatar)< 50)
+
+if (health_level > 0)
 {
-	sprite_index = sprite_snake_walking;
-	var velocity = min(.8, distance_to_object(object_avatar));
-	var angle = arctan2(object_avatar.y - y, object_avatar.x - x);
-	var dx = velocity * cos(angle);
-	var dy = velocity * sin(angle);
-	if (place_meeting(x + dx, y + dy, object_avatar))
+	if (bounce_back_count < max_bounce_back_count)
 	{
-		if (object_avatar.hurt_count == object_avatar.max_hurt_count)
+		var x_velocity = 3.0 * bounce_direction;
+		if (!place_meeting(x + x_velocity, y, object_base_wall))
 		{
-			global.health_level = max(global.health_level - 1, 0);
-			object_avatar.hurt_count = 0;
+			x += x_velocity;
+		}
+	}
+	else if (distance_to_object(object_avatar)< 50)
+	{
+		sprite_index = sprite_snake_walking;
+		var velocity = min(.8, distance_to_object(object_avatar));
+		var angle = arctan2(object_avatar.y - y, object_avatar.x - x);
+		var dx = velocity * cos(angle);
+		var dy = velocity * sin(angle);
+		if (place_meeting(x + dx, y + dy, object_avatar))
+		{
+			if (object_avatar.hurt_count == object_avatar.max_hurt_count)
+			{
+				global.health_level = max(global.health_level - 1, 0);
+				object_avatar.hurt_count = 0;
 				
-			// If avatar is to the left
-			if (object_avatar.x < x)
-			{
-				object_avatar.bounce_direction = -1;
+				// If avatar is to the left
+				if (object_avatar.x < x)
+				{
+					object_avatar.bounce_direction = -1;
+				}
+				else
+				{
+					object_avatar.bounce_direction = 1;
+				}
 			}
-			else
+		}
+		else
+		{
+			if (!place_meeting(x + dx, y, object_base_wall))
 			{
-				object_avatar.bounce_direction = 1;
+				x += dx;
+			}
+			if (!place_meeting(x, y + dy, object_base_wall))
+			{
+				y += dy;
 			}
 		}
 	}
 	else
 	{
-		x += dx;
-		y += dy;
+		sprite_index = sprite_snake_idle;
 	}
 }
-else
-{
-	sprite_index = sprite_snake_idle;
-}
 
-if (hurt_count == 0)
+if (hurt_count == 0 && sprite_index != sprite_snake_dead)
 {
-	audio_play_sound(sound_hit, 10, false);
+	health_level = max(health_level - 1, 0);
+	bounce_back_count = 0;
+	
+	if (health_level == 0)
+	{
+		sprite_index = sprite_snake_dead;
+	}
+}
+else if (hurt_count == 0 && sprite_index == sprite_snake_dead)
+{
+	hurt_count = max_hurt_count;
 }
 
 hurt_count = min(hurt_count + 1, max_hurt_count);
+bounce_back_count = min(bounce_back_count + 1, max_bounce_back_count);

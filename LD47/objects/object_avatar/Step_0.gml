@@ -8,6 +8,7 @@ if (global.health_level > 0)
 {
 	if (bounce_back_count < max_bounce_back_count)
 	{
+		vspeed = 0;
 		var x_velocity = 2.0 * bounce_direction;
 		if (!place_meeting(x + x_velocity, y, object_base_wall))
 		{
@@ -16,7 +17,7 @@ if (global.health_level > 0)
 	}
 	else
 	{
-		if (!keyboard_check(ord("X")))
+		if (sprite_index != sprite_avatar_attacking)
 		{
 			sprite_index = sprite_avatar_idle;
 	
@@ -44,13 +45,55 @@ if (global.health_level > 0)
 				hspeed = 1;
 			}
 		}
-		else
+		else // Handle enemy damage here
+		{
+			var x_offset = 16;
+			
+			// Handle avatar facing the left.
+			if (image_xscale == -1)
+			{
+				x_offset = -16;
+			}
+			
+			var _list = ds_list_create();
+			var _num = instance_place_list(x + x_offset, y, object_enemy, _list, false);
+			if _num > 0
+			{
+				for (var i = 0; i < _num; ++i;)
+				{
+				    var instance_enemy = _list[| i];
+					if (instance_enemy.hurt_count == instance_enemy.max_hurt_count)
+					{
+						instance_enemy.hurt_count = 0;
+					
+						// Handle enemy left of avatar.
+						if (instance_enemy.x < x)
+						{
+							instance_enemy.bounce_direction = -1.0;
+						}
+						else
+						{
+							instance_enemy.bounce_direction = 1.0;
+						}
+					}
+				}
+			}
+			ds_list_destroy(_list);
+		}
+		
+		if (keyboard_check(ord("X")) && !attack_pressed)
 		{
 			if (sprite_index != sprite_avatar_attacking)
 			{
 				image_index = 0;
+				audio_play_sound(sound_slice, 10, false);
 			}
 			sprite_index = sprite_avatar_attacking;
+			attack_pressed = true;
+		}
+		else if (!keyboard_check(ord("X")))
+		{
+			attack_pressed = false;
 		}
 	}
 }

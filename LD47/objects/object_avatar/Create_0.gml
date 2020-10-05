@@ -9,3 +9,5 @@ bounce_direction = 1.0;
 
 max_death_count = 180;
 death_count = max_death_count;
+
+attack_pressed = false;

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_hit.wav",
+  "soundFile": "sound_slice.wav",
   "duration": 0.275,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_hit",
+  "name": "sound_slice",
   "tags": [],
   "resourceType": "GMSound",
 }
