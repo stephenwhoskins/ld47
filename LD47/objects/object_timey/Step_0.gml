@@ -9,7 +9,11 @@ y = orig_y + y_offset;
 
 if (death_count < max_death_count)
 {
-	if (death_count > max_death_count / 2)
+	if (death_count > 2 * max_death_count / 3)
+	{
+		sprite_index = sprite_timey_dead;
+	}
+	if (death_count > max_death_count / 3)
 	{
 		if (global.shake_count == global.max_shake_count)
 		{
@@ -19,4 +23,9 @@ if (death_count < max_death_count)
 	}
 	
 	death_count = min(death_count + 1, max_death_count);
+	
+	if (death_count == max_death_count)
+	{
+		room_goto(Credits);
+	}
 }

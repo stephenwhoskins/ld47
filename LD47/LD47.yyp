@@ -9,6 +9,7 @@
     {"id":{"name":"sprite_timey_dying","path":"sprites/sprite_timey_dying/sprite_timey_dying.yy",},"order":1,},
     {"id":{"name":"sprite_door_locked_2","path":"sprites/sprite_door_locked_2/sprite_door_locked_2.yy",},"order":23,},
     {"id":{"name":"sprite_tile_11","path":"sprites/sprite_tile_11/sprite_tile_11.yy",},"order":10,},
+    {"id":{"name":"sprite_timey_dead","path":"sprites/sprite_timey_dead/sprite_timey_dead.yy",},"order":3,},
     {"id":{"name":"object_warrior","path":"objects/object_warrior/object_warrior.yy",},"order":2,},
     {"id":{"name":"object_bottom_wall_locked","path":"objects/object_bottom_wall_locked/object_bottom_wall_locked.yy",},"order":5,},
     {"id":{"name":"text_snake","path":"sprites/text_snake/text_snake.yy",},"order":1,},
