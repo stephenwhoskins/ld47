@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-is_boss = abs(image_xscale);
+is_boss = abs(image_xscale) > 1.1;
 health_level = is_boss < 1.1 ? 3 : 12;
 max_hurt_count = 45;
 hurt_count = max_hurt_count;
