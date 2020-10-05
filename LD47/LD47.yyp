@@ -104,7 +104,7 @@
     {"id":{"name":"set_camera","path":"scripts/set_camera/set_camera.yy",},"order":1,},
     {"id":{"name":"get_miniroom","path":"scripts/get_miniroom/get_miniroom.yy",},"order":2,},
     {"id":{"name":"object_menu_controller","path":"objects/object_menu_controller/object_menu_controller.yy",},"order":1,},
-    {"id":{"name":"object_firecall","path":"objects/object_firecall/object_firecall.yy",},"order":3,},
+    {"id":{"name":"object_fireball","path":"objects/object_fireball/object_fireball.yy",},"order":3,},
     {"id":{"name":"sprite_door","path":"sprites/sprite_door/sprite_door.yy",},"order":14,},
     {"id":{"name":"object_door_locked_2","path":"objects/object_door_locked_2/object_door_locked_2.yy",},"order":18,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

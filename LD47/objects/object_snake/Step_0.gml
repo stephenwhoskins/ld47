@@ -18,6 +18,8 @@ if (health_level > 0)
 		var angle = arctan2(object_avatar.y - y, object_avatar.x - x);
 		var dx = velocity * cos(angle);
 		var dy = velocity * sin(angle);
+		if (dx != 0)
+			image_xscale *= sign(dx) * sign(image_xscale);
 		if (place_meeting(x + dx, y + dy, object_avatar))
 		{
 			if (object_avatar.hurt_count == object_avatar.max_hurt_count)
@@ -46,10 +48,29 @@ if (health_level > 0)
 			{
 				y += dy;
 			}
+			fire_frame = fire_frame_max;
 		}
 	}
 	else
 	{
+		if (is_boss && fire_frame == fire_frame_max)
+		{
+			var xs = sign(image_xscale);
+			var ys = sign(image_yscale);
+			var num_fireballs = 3;
+			for (var i = 0; i < num_fireballs; i++)
+			{
+				var fire = instance_create_layer(x + 3 * xs , y - 3 * ys, layer, object_fireball);
+				var angle = pi / 4 * (i - (num_fireballs / 2 - .5));
+				fire.dx = cos(angle) * .5 * xs;
+				fire.dy = sin(angle) * .5;
+			}
+			fire_frame = 0;
+		}
+		else
+		{
+			fire_frame++;
+		}
 		sprite_index = sprite_snake_idle;
 	}
 }

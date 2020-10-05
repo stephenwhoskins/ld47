@@ -18,6 +18,8 @@ if (health_level > 0)
 		var angle = arctan2(object_avatar.y - y, object_avatar.x - x);
 		var dx = velocity * cos(angle);
 		var dy = velocity * sin(angle);
+		if (dx != 0)
+			image_xscale *= sign(dx) * sign(image_xscale);
 		if (place_meeting(x + dx, y + dy, object_avatar))
 		{
 			if (object_avatar.hurt_count == object_avatar.max_hurt_count)
