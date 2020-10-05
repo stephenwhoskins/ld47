@@ -23,9 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_barrier_0","path":"objects/object_barrier_0/object_barrier_0.yy",},"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_barrier_1","path":"objects/object_barrier_1/object_barrier_1.yy",},"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_base_wall","path":"objects/object_base_wall/object_base_wall.yy",},"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"object_avatar","path":"objects/object_avatar/object_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],

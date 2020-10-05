@@ -3,7 +3,7 @@
     "name": "sprite_door_locked",
     "path": "sprites/sprite_door_locked/sprite_door_locked.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
