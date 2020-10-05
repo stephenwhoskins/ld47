@@ -71,6 +71,7 @@ if (hurt_count == 0 && sprite_index != sprite_avatar_dead)
 
 if (sprite_index == sprite_avatar_dead && death_count == max_death_count)
 {
+	global.health_level = 5;
 	room_goto(Room1);
 }
 
