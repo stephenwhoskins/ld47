@@ -55,7 +55,7 @@ if (health_level > 0)
 	{
 		if (is_boss && fire_frame == fire_frame_max)
 		{
-			var xs = sign(image_xscale);
+			/*var xs = sign(image_xscale);
 			var ys = sign(image_yscale);
 			var num_fireballs = 3;
 			for (var i = 0; i < num_fireballs; i++)
@@ -65,7 +65,7 @@ if (health_level > 0)
 				fire.dx = cos(angle) * .5 * xs;
 				fire.dy = sin(angle) * .5;
 			}
-			fire_frame = 0;
+			fire_frame = 0;*/
 		}
 		else
 		{
@@ -87,11 +87,34 @@ if (hurt_count == 0 && sprite_index != sprite_snake_dead)
 		{
 			instance_create_depth(x, y, depth - 1, object_health);
 		}
+		if (is_boss)
+		{
+			snake_1 = instance_create_depth(x - 16, y, depth + 1, object_snake);
+			snake_2 = instance_create_depth(x - 8, y, depth + 1, object_snake);
+			snake_3 = instance_create_depth(x + 8, y, depth + 1, object_snake);
+			snake_4 = instance_create_depth(x + 16, y, depth + 1, object_snake);
+		}
 	}
 }
 else if (hurt_count == 0 && sprite_index == sprite_snake_dead)
 {
 	hurt_count = max_hurt_count;
+}
+
+if (variable_instance_exists(id, "snake_1") && variable_instance_exists(id, "snake_3") &&
+	variable_instance_exists(id, "snake_3") && variable_instance_exists(id, "snake_4"))
+{
+	if (snake_1.sprite_index == sprite_snake_dead &&
+		snake_2.sprite_index == sprite_snake_dead &&
+		snake_3.sprite_index == sprite_snake_dead &&
+		snake_4.sprite_index == sprite_snake_dead)
+	{
+		if (!timey_death_initiated)
+		{
+			script_timey_death_sequence();
+			timey_death_initiated = true;
+		}
+	}
 }
 
 hurt_count = min(hurt_count + 1, max_hurt_count);

@@ -70,6 +70,7 @@
     {"id":{"name":"object_timey","path":"objects/object_timey/object_timey.yy",},"order":1,},
     {"id":{"name":"object_left_wall_locked","path":"objects/object_left_wall_locked/object_left_wall_locked.yy",},"order":7,},
     {"id":{"name":"sprite_door_locked","path":"sprites/sprite_door_locked/sprite_door_locked.yy",},"order":15,},
+    {"id":{"name":"script_timey_death_sequence","path":"scripts/script_timey_death_sequence/script_timey_death_sequence.yy",},"order":3,},
     {"id":{"name":"sprite_trap","path":"sprites/sprite_trap/sprite_trap.yy",},"order":1,},
     {"id":{"name":"text_warrior","path":"sprites/text_warrior/text_warrior.yy",},"order":4,},
     {"id":{"name":"sprite_right_wall_locked","path":"sprites/sprite_right_wall_locked/sprite_right_wall_locked.yy",},"order":9,},
@@ -135,9 +136,9 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Credits","path":"rooms/Credits/Credits.yy",},
     {"name":"title","path":"rooms/title/title.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"Credits","path":"rooms/Credits/Credits.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
