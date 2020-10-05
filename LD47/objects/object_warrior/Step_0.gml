@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (distance_to_object(object_avatar)< 50)
 {
-	sprite_index = sprite_snake_walking;
+	sprite_index = sprite_warrior_walking;
 	var velocity = min(.8, distance_to_object(object_avatar));
 	var angle = arctan2(object_avatar.y - y, object_avatar.x - x);
 	var dx = velocity * cos(angle);
@@ -33,7 +33,7 @@ if (distance_to_object(object_avatar)< 50)
 }
 else
 {
-	sprite_index = sprite_snake_idle;
+	sprite_index = sprite_warrior_idle;
 }
 
 if (hurt_count == 0)
