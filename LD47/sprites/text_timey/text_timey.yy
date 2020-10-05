@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_right": 67,
   "bbox_top": 0,
-  "bbox_bottom": 24,
+  "bbox_bottom": 20,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 25,
+  "width": 68,
+  "height": 21,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_timey/text_timey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_timey/text_timey.yy",},"LayerId":{"name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"text_timey","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bdd595c0-28fc-4c29-aaed-2cbae7d52763","path":"sprites/text_timey/text_timey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bdd595c0-28fc-4c29-aaed-2cbae7d52763","path":"sprites/text_timey/text_timey.yy",},"LayerId":{"name":"6dfc53be-9124-480b-8f94-6ec34c49a0dc","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"text_timey","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","name":"bdd595c0-28fc-4c29-aaed-2cbae7d52763","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"text_timey","path":"sprites/text_timey/text_timey.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0475ded1-ec36-4b25-8922-ad869c3be3c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"325fc485-f571-4fd3-af90-48b45fb56eeb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bdd595c0-28fc-4c29-aaed-2cbae7d52763","path":"sprites/text_timey/text_timey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 50,
+    "xorigin": 34,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6dfc53be-9124-480b-8f94-6ec34c49a0dc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "credits",

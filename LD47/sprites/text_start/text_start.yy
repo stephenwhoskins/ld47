@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 30,
-  "bbox_right": 67,
-  "bbox_top": 1,
-  "bbox_bottom": 12,
+  "bbox_left": 0,
+  "bbox_right": 211,
+  "bbox_top": 0,
+  "bbox_bottom": 83,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 25,
+  "width": 212,
+  "height": 84,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_start/text_start.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_start/text_start.yy",},"LayerId":{"name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"text_start","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f31fe805-a08f-4469-9da6-e466ab871718","path":"sprites/text_start/text_start.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f31fe805-a08f-4469-9da6-e466ab871718","path":"sprites/text_start/text_start.yy",},"LayerId":{"name":"19ca1e2f-de43-4b17-beda-35aff7ae6f05","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"text_start","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","name":"f31fe805-a08f-4469-9da6-e466ab871718","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"text_start","path":"sprites/text_start/text_start.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7a6ab86a-c61e-4067-9446-dda0b61b94ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e6a43d6b-4a1d-4c06-8140-c516720f13f7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f31fe805-a08f-4469-9da6-e466ab871718","path":"sprites/text_start/text_start.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 50,
+    "xorigin": 106,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"19ca1e2f-de43-4b17-beda-35aff7ae6f05","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "credits",

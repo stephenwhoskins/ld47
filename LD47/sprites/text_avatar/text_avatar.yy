@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_right": 87,
   "bbox_top": 0,
-  "bbox_bottom": 24,
+  "bbox_bottom": 20,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 25,
+  "width": 88,
+  "height": 21,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_avatar/text_avatar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_avatar/text_avatar.yy",},"LayerId":{"name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"text_avatar","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8255d49a-6ce2-416a-837c-ca530363f7b1","path":"sprites/text_avatar/text_avatar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8255d49a-6ce2-416a-837c-ca530363f7b1","path":"sprites/text_avatar/text_avatar.yy",},"LayerId":{"name":"28a33aa1-f08c-4b6a-b3bf-9843ca510406","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"text_avatar","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","name":"8255d49a-6ce2-416a-837c-ca530363f7b1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"text_avatar","path":"sprites/text_avatar/text_avatar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8425505a-2705-43b9-903a-2a89795611d4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2f7696d-caeb-49a7-b7d2-5f15bbd969e3","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"969e62d4-55dd-4f79-ac29-917c0b1335dd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8255d49a-6ce2-416a-837c-ca530363f7b1","path":"sprites/text_avatar/text_avatar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 50,
+    "xorigin": 44,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"643bce31-ceb4-4e28-a852-d016d4fd43ef","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"28a33aa1-f08c-4b6a-b3bf-9843ca510406","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "credits",
