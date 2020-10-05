@@ -18,7 +18,7 @@ exiting = false;
 max_exit_count = 45;
 exit_count = max_exit_count;
 
-
+draw_set_font(Font1);
 var title_text = "Resume game?";
 title_struct = {
 text: title_text,
@@ -26,7 +26,7 @@ x: camera_get_view_width(view_camera[0]) * 3 / 2- string_width(title_text) / 2,
 y: 350
 };
 
-var no_button_text = "no";
+var no_button_text = "No";
 var button_height = 400;
 no_button = {
 text: no_button_text,
@@ -34,7 +34,7 @@ x: camera_get_view_width(view_camera[0]) * 3 / 2 - 30 - string_width(no_button_t
 y: button_height
 };
 yes_button = {
-text: "yes",
+text: "Yes",
 x: camera_get_view_width(view_camera[0]) * 3 / 2 + 30,
 y: button_height
 };

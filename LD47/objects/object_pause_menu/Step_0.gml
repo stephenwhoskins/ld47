@@ -12,6 +12,10 @@ if (keyboard_check(vk_escape) && !pausePressed)
 		option = option_no;
 		
 		// set new surface target
+		if (!surface_exists(my_application_surface))
+		{
+			my_application_surface = surface_create(3*camera_get_view_width(view_camera[0]), 3*camera_get_view_height(view_camera[0]));
+		}
 		surface_set_target(my_application_surface);
 		
 		// copy the application surface to the new surface target;
@@ -57,9 +61,9 @@ if (paused)
 	{
 		option = (option + 1) % max_options;
 		button_pressed = true;
-		audio_play_sound(sound_slice, 10, false);
+		audio_play_sound(sound_title_select, 10, false);
 	}
-	else if (swap && button_pressed && !exiting)
+	else if (!swap && !exiting)
 	{
 		button_pressed = false;
 	}
@@ -69,7 +73,7 @@ if (paused)
 	{
 		if (option == option_yes)
 		{
-			audio_play_sound(sound_slice, 10, false);
+			audio_play_sound(sound_title_select, 10, false);
 			fade_count = 0;
 			exiting = true;
 			exit_count = 0;
