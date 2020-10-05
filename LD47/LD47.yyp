@@ -105,6 +105,7 @@
     {"id":{"name":"object_snake","path":"objects/object_snake/object_snake.yy",},"order":0,},
     {"id":{"name":"sprite_warrior_idle","path":"sprites/sprite_warrior_idle/sprite_warrior_idle.yy",},"order":2,},
     {"id":{"name":"sprite_bottom_wall_locked","path":"sprites/sprite_bottom_wall_locked/sprite_bottom_wall_locked.yy",},"order":5,},
+    {"id":{"name":"script_timey_time_warp","path":"scripts/script_timey_time_warp/script_timey_time_warp.yy",},"order":4,},
     {"id":{"name":"object_barrier_0","path":"objects/object_barrier_0/object_barrier_0.yy",},"order":0,},
     {"id":{"name":"sound_power_up","path":"sounds/sound_power_up/sound_power_up.yy",},"order":1,},
     {"id":{"name":"sprite_timey_idle","path":"sprites/sprite_timey_idle/sprite_timey_idle.yy",},"order":0,},

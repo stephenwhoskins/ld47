@@ -6,3 +6,6 @@ orig_y = y;
 
 max_death_count = 720;
 death_count = max_death_count;
+
+max_time_warp_count = 480;
+time_warp_count = max_time_warp_count;

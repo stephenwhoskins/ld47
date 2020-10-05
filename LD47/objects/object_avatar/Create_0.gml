@@ -11,3 +11,5 @@ max_death_count = 180;
 death_count = max_death_count;
 
 attack_pressed = false;
+
+timey_time_warp_initiated = false;

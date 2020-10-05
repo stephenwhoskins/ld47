@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (global.health_level > 0)
+if (global.health_level > 0 && !global.time_stopped)
 {
 	if (bounce_back_count < max_bounce_back_count)
 	{
@@ -120,11 +120,11 @@ if (hurt_count == 0 && sprite_index != sprite_avatar_dead)
 	}
 }
 
-if (sprite_index == sprite_avatar_dead && death_count == max_death_count)
+if (sprite_index == sprite_avatar_dead && death_count == max_death_count &&
+    !timey_time_warp_initiated)
 {
-	global.health_level = 5;
-	global.key_count = 0;
-	room_goto(Room1);
+	script_timey_time_warp();
+	timey_time_warp_initiated = true;
 }
 
 hurt_count = min(hurt_count + 1, max_hurt_count);
