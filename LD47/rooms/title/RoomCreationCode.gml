@@ -7,3 +7,5 @@ global.max_shake_count = 240;
 global.shake_count = global.max_shake_count;
 
 audio_stop_all();
+
+window_set_caption("Chronos Time Warp");

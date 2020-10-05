@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var title_text = "Time Sultan";
+var title_text = "Chronos Time Warp";
 title_struct = {
 text: title_text,
 x: camera_get_view_width(view_camera[0]) / 2- string_width(title_text) / 2,

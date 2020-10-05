@@ -25,14 +25,5 @@ if (actually_hit &&
 {
 	global.health_level = max(global.health_level - 1, 0);
 	other.hurt_count = 0;
-	
-	// If avatar is to the left.
-	if (other.x < x)
-	{
-		other.bounce_direction = -1;
-	}
-	else
-	{
-		other.bounce_direction = 1;
-	}
+	other.bounce_direction = 0;
 }
